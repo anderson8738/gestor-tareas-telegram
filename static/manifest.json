@@ -1,0 +1,21 @@
+{
+  "name": "Gestor de Tareas",
+  "short_name": "Tareas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f9f9",
+  "theme_color": "#007bff",
+  "description": "Gestor de tareas por grupos con notificaciones vía Telegram",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1827/1827504.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1827/1827504.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

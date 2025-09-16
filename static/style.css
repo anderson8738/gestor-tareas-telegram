@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f9f9f9, #eef2f7);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Títulos */
+h1, h3 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Tarjetas */
+.card {
+  border: none;
+  border-radius: 1rem;
+  background: #fff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Botones */
+.btn {
+  border-radius: 0.75rem;
+  font-weight: 500;
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #28a745, #2ecc71);
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #007bff, #3498db);
+  border: none;
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #dc3545, #e74c3c);
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Lista de grupos/tareas */
+.list-group-item {
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 0.4rem;
+  background: #fafafa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.list-group-item-success {
+  background: #e8f8f5 !important;
+  border-left: 5px solid #2ecc71;
+}
+
+/* Formularios */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0,123,255,0.4);
+}
+
+/* Cabecera principal */
+h1 {
+  font-size: 2.2rem;
+  background: linear-gradient(90deg, #007bff, #2ecc71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
